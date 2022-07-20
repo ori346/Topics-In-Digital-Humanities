@@ -80,8 +80,9 @@ def convert_to_cvs():
          
 
 if __name__ == '__main__':
-    offensive = ['fat' , 'woman' ,'women' , 'girl' , 'slut' , 'gay' , 'lesbian' , 'penis' , 'our country' , 'foreign']
+    offensive = [' fat ' , 'woman' ,'women' , 'girl' , 'slut' , 'gay' , 'lesbian' , 'penis' , 'our country' , 'foreign']
     for word in offensive:
         find_bnn_quote(word)
         get_friends_quote(word)
     convert_to_cvs()
+    
